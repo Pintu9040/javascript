@@ -30,3 +30,36 @@ let myObj = {
 
  
 console.log(typeof score);
+
+
+
+
+
+//***************************************************** */
+             //memory
+
+// stack memory(primitive),   heap memory (Non primitive)      
+  //copy
+let myYoutubeName = "pintu-youtube"
+let anotherName = myYoutubeName
+anotherName = "my-utube"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne ={
+  email:"pintu@google.com",
+   upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@gmail.com"
+
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+
+
