@@ -23,3 +23,6 @@ console.log(anotherString);
 const newStringOne = "   pintu    "
 console.log(newStringOne);
 console.log(newStringOne.trim());
+
+console.log(newStringOne.blink());
+
