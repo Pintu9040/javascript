@@ -3,14 +3,14 @@
 // 7 types - string,number,boolean,null,undefined,,symbol,bigInt
 
 const score = 100
-const scoreValue = 100.3
+const scoreValue = 100.3     //  number  
  
-//const isLoggedIn = fulse 
+//const isLoggedIn = fulse  // boolean
 const outSideTemp = null
-let userEmail;
+let userEmail;              //undefined
 
 //const sym1 = symbol('123');
-//const sym2 = symbol('123');
+//const sym2 = symbol('123');      //symbolp;
 //console.log(sym1 === sym2);
 
 // Reference (non- primitive)
